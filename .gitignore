@@ -1,0 +1,12 @@
+# This repository must never track build outputs or source trees.
+dist/
+release/
+pyinstaller-*/
+*.msi
+*.exe
+*.deb
+*.rpm
+*.pkg
+*.tar.gz
+*.zip
+*.dmg
