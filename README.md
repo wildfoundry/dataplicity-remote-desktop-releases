@@ -1,6 +1,6 @@
 # Dataplicity Remote Desktop
 
-Windows and Linux install packages for Dataplicity Remote Desktop. Development
+Windows, Linux, and macOS install packages for Dataplicity Remote Desktop. Development
 stays in a private repository; this repository publishes **release artifacts
 only**.
 
@@ -30,6 +30,8 @@ Dataplicity website Add Information page and other hard-coded download buttons:
 | Linux aarch64 `.rpm` | https://github.com/wildfoundry/dataplicity-remote-desktop-releases/releases/latest/download/dataplicity-remote-desktop-aarch64.rpm |
 | Linux x86_64 tarball | https://github.com/wildfoundry/dataplicity-remote-desktop-releases/releases/latest/download/dataplicity-remote-desktop-linux-x86_64.tar.gz |
 | Linux aarch64 tarball | https://github.com/wildfoundry/dataplicity-remote-desktop-releases/releases/latest/download/dataplicity-remote-desktop-linux-aarch64.tar.gz |
+| macOS universal2 tarball (Homebrew) | https://github.com/wildfoundry/dataplicity-remote-desktop-releases/releases/latest/download/dataplicity-remote-desktop-macos-universal2.tar.gz |
+| macOS universal2 `.pkg` | https://github.com/wildfoundry/dataplicity-remote-desktop-releases/releases/latest/download/dataplicity-remote-desktop-macos-universal2.pkg |
 
 Current version string (plain text):
 https://raw.githubusercontent.com/wildfoundry/dataplicity-remote-desktop-releases/main/latest.txt
@@ -45,7 +47,10 @@ for pin-able filenames that include the version.
 | `dataplicity-remote-desktop_<version>_<arch>.deb` | Debian / Ubuntu (`amd64`, `arm64`) |
 | `dataplicity-remote-desktop-<version>-1.<arch>.rpm` | RPM (`x86_64`, `aarch64`) |
 | `dataplicity-remote-desktop-<version>-linux-<arch>.tar.gz` | Standalone Linux binary tarball |
+| `dataplicity-remote-desktop-<version>-macos-universal2.tar.gz` | macOS Homebrew formula tarball |
+| `dataplicity-remote-desktop-<version>-macos-universal2.pkg` | macOS installer package |
 | Stable names without `<version>` | Same bits; used by `/releases/latest/download/…` |
+
 | `SHA256SUMS-*.txt` / `VERSION.txt` | Checksums and version stamp on each release |
 
 Verify downloads before installing:
